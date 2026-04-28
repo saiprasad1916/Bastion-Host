@@ -4,7 +4,7 @@ A **Jump Server** (or Jump Box) is a highly secured "bridge" computer that sits 
 
 ---
 
-## 🏦 The Analogy: The High-Security Vault
+## The Analogy: The High-Security Vault
 Imagine you own a **Bank** (your private network).
 
 *   **The Vault:** Inside are the gold bars (**your sensitive data and servers**).
@@ -15,7 +15,7 @@ To get to the gold, an employee must first enter the booth, lock the door behind
 
 ---
 
-## ⚙️ Step-by-Step Process: How it Works
+## Step-by-Step Process: How it Works
 
 ### 1. The Gateway Request
 A system administrator working from home wants to update a database server. However, that database is "air-gapped" or hidden behind a strict firewall. 
@@ -35,7 +35,7 @@ Because everyone must pass through this one booth, the company can record everyt
 
 ---
 
-## ⚖️ Pros & Cons
+## Pros & Cons
 
 ### The "Pros"
 *   **Single Point of Entry:** Easier to guard one door than 100 windows.
@@ -48,7 +48,7 @@ Because everyone must pass through this one booth, the company can record everyt
 
 ---
 
-## ☕ Scenario: The Rogue Coffee Shop Wi-Fi
+## Scenario: The Rogue Coffee Shop Wi-Fi
 **Sarah**, a Lead Engineer, is working from a local coffee shop on public Wi-Fi while a hacker nearby sniffs data.
 
 1.  **The Threat:** If Sarah connected *directly* to her database, the hacker could steal her credentials.
@@ -57,7 +57,7 @@ Because everyone must pass through this one booth, the company can record everyt
 
 ---
 
-## 🛡️ Hardening Checklist
+## Hardening Checklist
 To make a Jump Server a "Digital Fortress," we follow these rules:
 *   **Minimal Installation:** No browsers or extra software to exploit.
 *   **Firewall Lockdown:** Close all ports except one (e.g., SSH Port 22).
